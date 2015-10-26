@@ -1,5 +1,5 @@
-#include <iostream>
-#include "Persona.h"
+/*#include <iostream>
+//#include "Persona.h"
 
 using namespace std;
 
@@ -25,3 +25,4 @@ Persona::~Persona(void)
 {
 	cout << "BURN THAT CLASS WITH FIRE!!11!1!! shout coz that painfull ho-ho-ha-ha" << endl;
 }
+*/

@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include "vPersona.h"
+//#include "vPersona.h"
 
 class vEmployee :public vPersona
 {
@@ -12,6 +12,7 @@ public:
 	virtual void setName(const char *name_);
 	int getAge() const;
 	void setAge(const int age_);
+	virtual void vShow(void);
 	void add();
 	//friend ostream& operator <<(ostream& out, vEmployee& e);
 };

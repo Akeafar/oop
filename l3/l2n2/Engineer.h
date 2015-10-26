@@ -16,4 +16,6 @@ public:
 
 	void setcategory(int category);
 	void setspecialization(string specialization);
+
+	virtual void vShow(void);
 };

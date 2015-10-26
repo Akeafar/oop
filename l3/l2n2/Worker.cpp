@@ -41,6 +41,11 @@ void Worker::setproffesion(string profession)
 	this->profession = profession;
 }
 
+void Worker::vShow(void)
+{
+	cout << "Profession" << endl;
+}
+
 Worker::~Worker(void)
 {
 	cout << "worker fired up, lulz" << endl;

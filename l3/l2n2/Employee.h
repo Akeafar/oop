@@ -19,13 +19,29 @@ public:
 	int getworktime(void);
 	string getcorp(void);
 
-	string getName(void);
-	void setName(string name_);
-	int getAge(void);
-	void setAge( int age_);
+
+	virtual string getname(void); // чистые виртуальные функции
+	virtual int getrang(void);
+	virtual int getage(void);
+
+	virtual void setname(string name);
+	virtual void setrang(int rang);
+	virtual void setage(int age);
 
 
-	~Employee(void);
+	virtual void vShow(void);
+	static void show();
+	virtual void add();
 
+
+
+	
+
+	~Employee();
+private:
+	//static vPersona *head; // статическая компонента
+	int age;
+	string name;
+	int rang;
 
 };

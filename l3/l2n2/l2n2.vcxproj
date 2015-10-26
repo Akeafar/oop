@@ -58,6 +58,9 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <CustomBuildStep>
+      <Inputs>msvcrt.lib;msvcmrt.lib;%(Inputs)</Inputs>
+    </CustomBuildStep>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -81,6 +84,7 @@
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Engineer.cpp" />
     <ClCompile Include="Extramural student.cpp" />
+    <ClCompile Include="List.cpp" />
     <ClCompile Include="Persona.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Turner.cpp" />
@@ -92,6 +96,7 @@
     <ClInclude Include="Employee.h" />
     <ClInclude Include="Engineer.h" />
     <ClInclude Include="Extramural student.h" />
+    <ClInclude Include="List.h" />
     <ClInclude Include="Persona.h" />
     <ClInclude Include="Turner.h" />
     <ClInclude Include="vEmployee.h" />

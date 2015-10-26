@@ -16,4 +16,5 @@ public:
 
 	void setrukojopost(int rukojopost);
 
+	virtual void vShow(void);
 };

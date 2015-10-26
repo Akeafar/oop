@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Employee.h"
+#include <string>
 
 using namespace std;
 
@@ -23,6 +24,21 @@ int Employee::getworktime(void)
 	return this->worktime;
 }
 
+int Employee::getage(void)
+{
+	return this->age;
+}
+
+int Employee::getrang(void)
+{
+	return this->rang;
+}
+
+string Employee::getname(void)
+{
+	return this->name;
+}
+
 void Employee::setcorp(string corp)
 {
 	this->corp = corp;
@@ -38,28 +54,70 @@ void Employee::setcash(int cash)
 	this->cash = cash;
 }
 
-
-int Employee::getAge(void)
+void Employee::setage(int age)
 {
+	this->age=age;
+}
 
+void Employee::setrang(int rang)
+{
+	this->rang = rang;
+}
+
+void Employee::setname(string name)
+{
+	this->name = name;
 }
 
 
-void Employee::setAge(int age_)
-{
 
+void Employee::show()
+{
+	vPersona *app = head;
+	while (app)
+	{
+		cout << "QQWWEE" << endl;
+		app = app->next;
+	}
 }
 
-void Employee::getName(string name)
+void Employee::add()
 {
-
+	if (!head)
+	{
+		head = this;
+		this->next = NULL;
+	}
+	else
+	{
+		vPersona * q = head;
+		if (q->next == NULL)
+		{
+			q->next = this;
+			this->next = NULL;
+		}
+		else
+		{
+			while (q->next != NULL)
+			{
+				q = q->next;
+			};
+			q->next = this;
+			this->next = NULL;
+		};
+	};
 }
 
-string Employee::setName(void)
+void Employee::vShow(void)
 {
-
-
+	cout << "Corp " << this->corp << endl;
+	cout << "Rang " << this->rang << endl;
+	cout << "Age " << this->age << endl;
+	cout << "Name " << this->name<<endl  ;
+	cout << "Worktime " << this->worktime << endl;
+	cout << "Cash " << this->cash << endl;
 }
+
 
 
 

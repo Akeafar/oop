@@ -29,7 +29,10 @@ void Engineer::setcategory(int category)
 	this->category = category;
 }
 
-
+void Engineer::vShow(void)
+{
+	cout << "Engineer category " << this->category<<endl;
+}
 
 Engineer::~Engineer(void)
 {

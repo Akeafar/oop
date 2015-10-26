@@ -19,5 +19,8 @@ public:
 	void setproffesion(string profession);
 	void setworkplace(string workplace);
 	void setexp(int exp);
+
+	virtual void vShow(void);
+
 	~Worker(void);
 };

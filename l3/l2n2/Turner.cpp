@@ -18,6 +18,11 @@ void Turner::setrank(int rank)
 	this->rank = rank;
 }
 
+void Turner::vShow(void)
+{
+	cout << "rank " << this->rank << endl;
+}
+
 Turner::~Turner(void)
 {
 	cout << "Turner is going out..." << endl;

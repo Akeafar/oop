@@ -18,6 +18,11 @@ int Ext_student::getrukojopost(void)
 	return this->rukojopost;
 }
 
+void Ext_student::vShow(void)
+{
+	cout << "Na skol'ko on ploh " << this->rukojopost << endl;
+}
+
 Ext_student::~Ext_student(void)
 {
 	cout << "and at this moment student knew...he fucked up" << endl;

@@ -11,4 +11,6 @@ public:
 	int getrank(void);
 	void setrank(int rank);
 	~Turner(void);
+
+	virtual void vShow(void);
 };
