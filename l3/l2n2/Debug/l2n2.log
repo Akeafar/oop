@@ -1,0 +1,53 @@
+﻿Build started 13.10.2015 9:29:29.
+     1>Project "D:\Yniver\oop\l3\l2n2\l2n2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Employee.cpp Engineer.cpp "Extramural student.cpp" Source.cpp Turner.cpp Worker.cpp vPersona.cpp
+         vPersona.cpp
+         Source.cpp
+     1>d:\yniver\oop\l3\l2n2\source.cpp(14): error C2259: 'Employee' : cannot instantiate abstract class
+                 due to following members:
+                 'char *vPersona::getName(void) const' : is abstract
+                 d:\yniver\oop\l3\l2n2\vpersona.h(8) : see declaration of 'vPersona::getName'
+     1>d:\yniver\oop\l3\l2n2\source.cpp(15): error C2039: 'setname' : is not a member of 'Employee'
+                 d:\yniver\oop\l3\l2n2\employee.h(7) : see declaration of 'Employee'
+     1>d:\yniver\oop\l3\l2n2\source.cpp(20): error C2259: 'Ext_student' : cannot instantiate abstract class
+                 due to following members:
+                 'char *vPersona::getName(void) const' : is abstract
+                 d:\yniver\oop\l3\l2n2\vpersona.h(8) : see declaration of 'vPersona::getName'
+     1>d:\yniver\oop\l3\l2n2\source.cpp(22): error C2039: 'setname' : is not a member of 'Ext_student'
+                 d:\yniver\oop\l3\l2n2\extramural student.h(6) : see declaration of 'Ext_student'
+     1>d:\yniver\oop\l3\l2n2\source.cpp(27): error C2259: 'Engineer' : cannot instantiate abstract class
+                 due to following members:
+                 'char *vPersona::getName(void) const' : is abstract
+                 d:\yniver\oop\l3\l2n2\vpersona.h(8) : see declaration of 'vPersona::getName'
+     1>d:\yniver\oop\l3\l2n2\source.cpp(28): error C2039: 'setname' : is not a member of 'Engineer'
+                 d:\yniver\oop\l3\l2n2\engineer.h(6) : see declaration of 'Engineer'
+     1>d:\yniver\oop\l3\l2n2\source.cpp(37): error C2259: 'Turner' : cannot instantiate abstract class
+                 due to following members:
+                 'char *vPersona::getName(void) const' : is abstract
+                 d:\yniver\oop\l3\l2n2\vpersona.h(8) : see declaration of 'vPersona::getName'
+     1>d:\yniver\oop\l3\l2n2\source.cpp(38): error C2039: 'setname' : is not a member of 'Turner'
+                 d:\yniver\oop\l3\l2n2\turner.h(6) : see declaration of 'Turner'
+     1>d:\yniver\oop\l3\l2n2\source.cpp(51): error C2039: 'getname' : is not a member of 'Employee'
+                 d:\yniver\oop\l3\l2n2\employee.h(7) : see declaration of 'Employee'
+     1>d:\yniver\oop\l3\l2n2\source.cpp(52): error C2039: 'getname' : is not a member of 'Turner'
+                 d:\yniver\oop\l3\l2n2\turner.h(6) : see declaration of 'Turner'
+     1>d:\yniver\oop\l3\l2n2\source.cpp(52): error C2039: 'getname' : is not a member of 'Engineer'
+                 d:\yniver\oop\l3\l2n2\engineer.h(6) : see declaration of 'Engineer'
+     1>d:\yniver\oop\l3\l2n2\source.cpp(52): error C2039: 'getname' : is not a member of 'Ext_student'
+                 d:\yniver\oop\l3\l2n2\extramural student.h(6) : see declaration of 'Ext_student'
+     1>d:\yniver\oop\l3\l2n2\source.cpp(54): error C2039: 'getname' : is not a member of 'Engineer'
+                 d:\yniver\oop\l3\l2n2\engineer.h(6) : see declaration of 'Engineer'
+         Employee.cpp
+         Generating Code...
+         Compiling...
+         Worker.cpp
+         Turner.cpp
+         Extramural student.cpp
+         Engineer.cpp
+         Generating Code...
+     1>Done Building Project "D:\Yniver\oop\l3\l2n2\l2n2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.56

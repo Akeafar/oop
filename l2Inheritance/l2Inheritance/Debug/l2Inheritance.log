@@ -1,0 +1,30 @@
+﻿Build started 30.09.2015 14:28:06.
+     1>Project "D:\Yniver\oop\l2Inheritance\l2Inheritance\l2Inheritance.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\l2Inheritance.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Employee.cpp Engineer.cpp "Extramural student.cpp" Persona.cpp Turner.cpp Worker.cpp l2Inheritance.cpp
+         Employee.cpp
+         Generating Code...
+         Compiling...
+         l2Inheritance.cpp
+         Worker.cpp
+         Turner.cpp
+         Persona.cpp
+         Extramural student.cpp
+         Engineer.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Yniver\oop\l2Inheritance\Debug\l2Inheritance.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Yniver\oop\l2Inheritance\Debug\l2Inheritance.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Yniver\oop\l2Inheritance\Debug\l2Inheritance.lib" /MACHINE:X86 Debug\l2Inheritance.res
+         Debug\Employee.obj
+         Debug\Engineer.obj
+         "Debug\Extramural student.obj"
+         Debug\l2Inheritance.obj
+         Debug\Persona.obj
+         Debug\Turner.obj
+         Debug\Worker.obj
+     1>Persona.obj : error LNK2011: precompiled object not linked in; image may not run
+     1>D:\Yniver\oop\l2Inheritance\Debug\l2Inheritance.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "D:\Yniver\oop\l2Inheritance\l2Inheritance\l2Inheritance.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.61
