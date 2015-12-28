@@ -1,0 +1,9 @@
+D:\Yniver\oop\LabkaSeti\LabkaSeti\bin\Debug\LabkaSeti.exe.config
+D:\Yniver\oop\LabkaSeti\LabkaSeti\bin\Debug\LabkaSeti.exe
+D:\Yniver\oop\LabkaSeti\LabkaSeti\bin\Debug\LabkaSeti.pdb
+D:\Yniver\oop\LabkaSeti\LabkaSeti\obj\Debug\LabkaSeti.csprojResolveAssemblyReference.cache
+D:\Yniver\oop\LabkaSeti\LabkaSeti\obj\Debug\LabkaSeti.Form1.resources
+D:\Yniver\oop\LabkaSeti\LabkaSeti\obj\Debug\LabkaSeti.Properties.Resources.resources
+D:\Yniver\oop\LabkaSeti\LabkaSeti\obj\Debug\LabkaSeti.csproj.GenerateResource.Cache
+D:\Yniver\oop\LabkaSeti\LabkaSeti\obj\Debug\LabkaSeti.exe
+D:\Yniver\oop\LabkaSeti\LabkaSeti\obj\Debug\LabkaSeti.pdb

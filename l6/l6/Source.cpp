@@ -33,7 +33,7 @@ void main()
 	arr3.print();
 	
 
-	cout << arr1[0]<<endl;
+	cout << arr1[2]<<endl;
 
 	if (test1 != test2)
 	{

@@ -6,7 +6,7 @@ using namespace std;
 
 Employee::Employee(void)
 {
-	cout << "Called Employee's constructor" << endl;
+	//cout << "Called Employee's constructor" << endl;
 }
 
 int Employee::getcash(void)
@@ -37,6 +37,16 @@ int Employee::getrang(void)
 string Employee::getname(void)
 {
 	return this->name;
+}
+
+int Employee::getw_exp(void)
+{
+	return this->Work_exp;
+}
+
+void Employee::setw_exp(int Work_exp)
+{
+	this->Work_exp = Work_exp;
 }
 
 void Employee::setcorp(string corp)
@@ -123,5 +133,5 @@ void Employee::vShow(void)
 
 Employee::~Employee(void)
 {
-	cout << "FUCK THE MASTER " << endl;
+	//cout << "FUCK THE MASTER " << endl;
 }

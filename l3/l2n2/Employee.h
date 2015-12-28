@@ -23,11 +23,12 @@ public:
 	virtual string getname(void); // чистые виртуальные функции
 	virtual int getrang(void);
 	virtual int getage(void);
+	virtual int getw_exp(void);
 
 	virtual void setname(string name);
 	virtual void setrang(int rang);
 	virtual void setage(int age);
-
+	virtual void setw_exp(int Work_exp);
 
 	virtual void vShow(void);
 	static void show();
@@ -38,10 +39,11 @@ public:
 	
 
 	~Employee();
-private:
+protected:
 	//static vPersona *head; // статическая компонента
 	int age;
 	string name;
 	int rang;
+	int Work_exp;
 
 };

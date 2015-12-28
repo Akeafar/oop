@@ -81,6 +81,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Company.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Engineer.cpp" />
     <ClCompile Include="Extramural student.cpp" />
@@ -93,6 +94,7 @@
     <ClCompile Include="Worker.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Company.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="Engineer.h" />
     <ClInclude Include="Extramural student.h" />

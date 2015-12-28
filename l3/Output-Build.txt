@@ -1,0 +1,6 @@
+﻿1>------ Build started: Project: l2n2, Configuration: Debug Win32 ------
+1>  Turner.cpp
+1>  Company.cpp
+1>  Generating Code...
+1>  l2n2.vcxproj -> D:\Yniver\oop\l3\Debug\l2n2.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

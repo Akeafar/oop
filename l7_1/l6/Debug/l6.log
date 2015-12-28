@@ -1,0 +1,51 @@
+﻿Build started 14.12.2015 15:10:42.
+     1>Project "D:\Yniver\oop\l7_1\l6\l6.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>d:\yniver\oop\l7_1\l6\arr.h(175): warning C4521: 'Array<int>' : multiple copy constructors specified
+                 d:\yniver\oop\l7_1\l6\source.cpp(17) : see reference to class template instantiation 'Array<int>' being compiled
+     1>d:\yniver\oop\l7_1\l6\arr.h(175): warning C4521: 'Array<Stack>' : multiple copy constructors specified
+                 d:\yniver\oop\l7_1\l6\source.cpp(24) : see reference to class template instantiation 'Array<Stack>' being compiled
+     1>d:\yniver\oop\l7_1\l6\arr.h(171): error C2679: binary '<<' : no operator found which takes a right-hand operand of type 'Stack' (or there is no acceptable conversion)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(498): could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(478): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(458): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(438): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(418): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(397): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(377): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(356): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(336): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(316): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(291): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(271): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(237): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(217): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::_Bool)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(210): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(203): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(197): or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(1026): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(988): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,I>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)'
+                 with
+                 [
+                     I=Stack
+         ,            _Ty=Stack
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(978): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(971): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(964): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(957): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(831): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(784): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(746): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(699): or       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+                 while trying to match the argument list '(std::ostream, Stack)'
+                 d:\yniver\oop\l7_1\l6\arr.h(168) : while compiling class template member function 'void Array<Stack>::print(void)'
+                 d:\yniver\oop\l7_1\l6\source.cpp(31) : see reference to function template instantiation 'void Array<Stack>::print(void)' being compiled
+                 d:\yniver\oop\l7_1\l6\source.cpp(24) : see reference to class template instantiation 'Array<Stack>' being compiled
+     1>Done Building Project "D:\Yniver\oop\l7_1\l6\l6.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.79

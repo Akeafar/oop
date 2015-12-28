@@ -1,0 +1,18 @@
+﻿Build started 03.11.2015 12:13:55.
+     1>Project "D:\Yniver\oop\L7\L7\L7.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Arr.cpp Source.cpp
+         Source.cpp
+     1>d:\yniver\oop\l7\l7\arr.h(67): error C2228: left of '.counter' must have class/struct/union
+                 type is 'float'
+                 d:\yniver\oop\l7\l7\arr.h(63) : while compiling class template member function 'Array<float> Array<float>::operator +(Array<float>)'
+                 d:\yniver\oop\l7\l7\source.cpp(31) : see reference to function template instantiation 'Array<float> Array<float>::operator +(Array<float>)' being compiled
+                 d:\yniver\oop\l7\l7\source.cpp(14) : see reference to class template instantiation 'Array<float>' being compiled
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Arr.cpp
+     1>Done Building Project "D:\Yniver\oop\L7\L7\L7.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.75

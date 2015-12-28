@@ -9,6 +9,7 @@ vPersona::vPersona()
 	name = "";
 	age = 0;
 	rang = 0;
+	Work_exp = 0;
 }
 
 

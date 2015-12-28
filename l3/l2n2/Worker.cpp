@@ -6,7 +6,18 @@ using namespace std;
 
 Worker::Worker(void)
 {
-	cout << "Called worker's constructor" << endl;
+	//cout << "Called worker's constructor" << endl;
+}
+
+
+int Worker::getBirthday(void)
+{
+	return this->BirthDate;
+}
+
+void Worker::setBirthday(int DateOfYear)
+{
+	this->BirthDate = DateOfYear;
 }
 
 string Worker::getprofession(void)
@@ -48,5 +59,5 @@ void Worker::vShow(void)
 
 Worker::~Worker(void)
 {
-	cout << "worker fired up, lulz" << endl;
+	//cout << "worker fired up, lulz" << endl;
 }

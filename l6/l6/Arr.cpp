@@ -1,4 +1,4 @@
-#include "Arr.h"
+/*#include "Arr.h"
 #include <iostream>
 
 using namespace std;
@@ -45,3 +45,5 @@ void Array::print()
 	}
 	cout << endl;
 }
+
+*/

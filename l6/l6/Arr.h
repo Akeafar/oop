@@ -6,17 +6,55 @@ using namespace std;
 
 class Array
 {
-protected:
+public:
 	int *arr;
 	int arr_size;
-public:
-	Array(void);
-	Array(int size);
-	void setRandom();
-	void set();
-	void print();
-	~Array(void);
-	
+
+
+	Array(void)
+	{
+		arr = NULL;
+		arr_size = 0;
+	}
+
+	Array(int size)
+	{
+		arr = new int[size];
+		arr_size = size;
+	}
+
+	~Array()
+	{
+
+	}
+
+	void setRandom()
+	{
+		for (int i = 0; i < arr_size; i++)
+		{
+			arr[i] = rand() % 8 + 1;
+		}
+	}
+
+
+	void set()
+	{
+		for (int i = 0; i < arr_size; i++)
+		{
+			arr[i] = i;
+		}
+	}
+
+	void print()
+	{
+		for (int i = 0; i < arr_size; i++)
+		{
+			cout << arr[i] << " ";
+		}
+		cout << endl;
+	}
+
+
 
 	Array operator +(Array arr2)
 	{
